@@ -8,12 +8,14 @@
 {{/banner}}
 
 <div class="container list">
-    <div class="item">
-        <img src="assets/images/pastor-alemao.jpg" class="item--image" />
-        <div class="item--name">Pastor-alemão</div>
-        <div class="item--color">Cor: Amarelo e Preto</div>
-        <div class="item--genre">Gênero: Masculino</div>
-    </div>
+    {{#list}}
+        <div class="item">
+            <img src="assets/images/{{ image }}" class="item--image" />
+            <div class="item--name">{{ name }}</div>
+            <div class="item--color">Cor: {{ collor }}</div>
+            <div class="item--genre">Gênero: {{ sex }}</div>
+        </div>
+    {{/list}}
 </div>
 
 {{>partials/footer}}
