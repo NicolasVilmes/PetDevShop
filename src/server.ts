@@ -8,8 +8,8 @@ dotenv.config();
 
 const server = express();
 
-server.set('View engine', 'mustache');
-server.set('Views', path.join(__dirname, 'Views'));
+server.set('view engine', 'mustache');
+server.set('views', path.join(__dirname, 'Views'));
 server.engine('mustache', mustache());
 
 server.use(express.static(path.join(__dirname, '../Public')));
