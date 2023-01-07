@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "engines": {
     "node": "18.x"
   },
+=======
+>>>>>>> parent of 0085aa0 (Last commit)
 =======
 >>>>>>> parent of 0085aa0 (Last commit)
   "scripts": {
